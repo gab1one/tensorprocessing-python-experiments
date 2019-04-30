@@ -1,0 +1,6 @@
+[submodule "gantt"]
+	path = gantt
+	url = git@github.com:gab1one/gantt.git
+[submodule "gannt-matplotlib"]
+	path = gannt-matplotlib
+	url = git@github.com:gab1one/gantt.git
