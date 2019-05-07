@@ -1,4 +1,3 @@
-
 import datetime
 import gantt
 
@@ -17,15 +16,6 @@ gantt.add_vacations(datetime.date(2015, 1, 13))
 rANO = gantt.Resource('ANO')
 rJLS = gantt.Resource('JLS')
 
-# Add vacations for one lucky resource
-rANO.add_vacations(
-    dfrom=datetime.date(2014, 12, 29), 
-    dto=datetime.date(2015, 1, 4) 
-    )
-rANO.add_vacations(
-    dfrom=datetime.date(2015, 1, 6), 
-    dto=datetime.date(2015, 1, 8) 
-    )
 
 # Test if this resource is  avalaible for some dates
 print(rANO.is_available(datetime.date(2015, 1, 5)))
